@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html><head>
 <meta http-equiv="content-type" content="text/html; charset=windows-1252">
-    <title>Test</title>
+    <title>smooth.</title>
     <meta name="viewport" width="device-width," initial-scale="1.0," maximum-scale="1.0," user-scalable="0">
     <style> body {padding: 0; margin: 0;} </style>
     <script src="./js/p5.min.js"></script>
     <script defer src=http://p5js.org/assets/js/p5.dom.min.js></script>
-    <script src="./js/script.js"></script>
+    <script src="./js/script_noise.js"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   </head>
   <body>
 <div class="bigtext center">
-  random.
+  smooth.
 </div>
 <div class="center git_footer">
   <a href="https://github.com/sahilkhanna">  <img src="./image/git.png" alt=""></a>
+</div>
+<div class="" id="p5canvas"></div>
+<br>
+<div class="" id="controls">
+  randomness :
+  <input type="text" value="0.1" id="randomness"><br><br>
+
+  tiles :
+  <input type="text" value="400" id="tiles">
+  <br><br>
+  <button type="button" name="go" id="go" onclick="go()">GO</button>
 </div>
 </body></html>

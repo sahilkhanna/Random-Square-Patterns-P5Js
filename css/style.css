@@ -2,6 +2,7 @@ body{
   color: #fff;
   background:#000;
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 .bigtext{
   text-align: center;
@@ -25,4 +26,34 @@ body{
 }
 canvas{
   z-index: -1;
+}
+button{
+  padding: 10px 110px;
+  border-radius: 6px;
+  background: #2e2e2e;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+input{
+  padding: 10px;
+  background: #2e2e2e;
+  color: #d1d1d1;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+button:hover{
+  background: #3e3e3e ;
+}
+input:hover{
+  background: #3e3e3e ;
+}
+input:focus{
+  background: #5e5e5e ;
+}
+#controls{
+  text-align: end;
+margin-right: 37%;
 }
